@@ -1,0 +1,120 @@
+{
+	"x": 960,
+	"y": 0,
+	"width": 736,
+	"height": 416,
+	"iid": "549a7980-2a00-11ed-aa66-755623b420a3",
+	"layers": [
+		"Midground.png",
+		"Playerspace.png",
+		"Foreground.png"
+	],
+	"entities": {
+		"Particle_system": [
+			{
+				"id": "Particle_system",
+				"iid": "1c11bdc0-5110-11ed-bb30-69f73f45edbd",
+				"layer": "Particle_systems",
+				"x": 48,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 16777215,
+				"customFields": {
+					"name": "3 - bg2"
+				}
+			},
+			{
+				"id": "Particle_system",
+				"iid": "77047c60-5110-11ed-84d7-0700bb80c7ae",
+				"layer": "Particle_systems",
+				"x": 80,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 16777215,
+				"customFields": {
+					"name": "3 - bg1"
+				}
+			}
+		],
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "bc7bddd0-2a00-11ed-aeb2-2bc8a7b7ec5d",
+				"layer": "Exits",
+				"x": 0,
+				"y": 0,
+				"width": 16,
+				"height": 192,
+				"color": 2505478,
+				"customFields": {
+					"Level_ID": 1,
+					"Entrance_ID": 1
+				}
+			}
+		],
+		"Image": [
+			{
+				"id": "Image",
+				"iid": "04dcf5e0-2a00-11ed-aeb2-c11a365ba46a",
+				"layer": "Images",
+				"x": 48,
+				"y": 80,
+				"width": 16,
+				"height": 16,
+				"color": 3870442,
+				"customFields": {
+					"Path": "../Images/Environments/Gardens/gardens_BG1.png",
+					"Layer": "Background1",
+					"ParallaxValue": 0.9
+				}
+			},
+			{
+				"id": "Image",
+				"iid": "86f649d0-5110-11ed-bb30-5d5dbce3908a",
+				"layer": "Images",
+				"x": 80,
+				"y": 80,
+				"width": 16,
+				"height": 16,
+				"color": 3870442,
+				"customFields": {
+					"Path": "../Images/Environments/Gardens/gardens_BG2.png",
+					"Layer": "Background2",
+					"ParallaxValue": 0.8
+				}
+			},
+			{
+				"id": "Image",
+				"iid": "87509ed0-5110-11ed-bb30-a331eb4bbab1",
+				"layer": "Images",
+				"x": 112,
+				"y": 80,
+				"width": 16,
+				"height": 16,
+				"color": 3870442,
+				"customFields": {
+					"Path": "../Images/Environments/Gardens/gardens_BG3.png",
+					"Layer": "Background3",
+					"ParallaxValue": 0.7
+				}
+			}
+		],
+		"Entrance": [
+			{
+				"id": "Entrance",
+				"iid": "2d315cc0-2a00-11ed-aeb2-6b52d83ec048",
+				"layer": "Entrances",
+				"x": 16,
+				"y": 160,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ID": 0
+				}
+			}
+		]
+	}
+}

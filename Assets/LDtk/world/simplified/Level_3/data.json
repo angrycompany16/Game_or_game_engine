@@ -1,0 +1,62 @@
+{
+	"x": 0,
+	"y": -512,
+	"width": 1024,
+	"height": 512,
+	"iid": "f9eca6c0-5110-11ed-aaaa-3703496958cd",
+	"layers": [
+		"Midground.png",
+		"Playerspace.png",
+		"Foreground.png"
+	],
+	"entities": {
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "499f7030-5110-11ed-aaaa-23139ea184bf",
+				"layer": "Exits",
+				"x": 576,
+				"y": 224,
+				"width": 144,
+				"height": 16,
+				"color": 2505478,
+				"customFields": {
+					"Level_ID": 1,
+					"Entrance_ID": 2
+				}
+			}
+		],
+		"Image": [
+			{
+				"id": "Image",
+				"iid": "7f8336f0-5110-11ed-aaaa-b7e45ac6d4ee",
+				"layer": "Images",
+				"x": 112,
+				"y": 96,
+				"width": 16,
+				"height": 16,
+				"color": 3870442,
+				"customFields": {
+					"Path": "../Images/Environments/Temple/background.png",
+					"Layer": "Background3",
+					"ParallaxValue": 1
+				}
+			}
+		],
+		"Entrance": [
+			{
+				"id": "Entrance",
+				"iid": "65261980-5110-11ed-aaaa-0b0a3471c797",
+				"layer": "Entrances",
+				"x": 544,
+				"y": 128,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ID": 0
+				}
+			}
+		]
+	}
+}

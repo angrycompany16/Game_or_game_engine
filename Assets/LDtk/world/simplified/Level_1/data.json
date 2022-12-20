@@ -1,0 +1,272 @@
+{
+	"x": 480,
+	"y": 0,
+	"width": 480,
+	"height": 272,
+	"iid": "26143560-02f0-11ed-ab87-4b0b26e70a71",
+	"layers": [
+		"Midground.png",
+		"Playerspace.png",
+		"Foreground.png"
+	],
+	"entities": {
+		"Particle_system": [
+			{
+				"id": "Particle_system",
+				"iid": "2ba83370-5110-11ed-84d7-63cadaf49a51",
+				"layer": "Particle_systems",
+				"x": 32,
+				"y": 48,
+				"width": 16,
+				"height": 16,
+				"color": 16777215,
+				"customFields": {
+					"name": "2 - bg2"
+				}
+			},
+			{
+				"id": "Particle_system",
+				"iid": "302a3920-5110-11ed-84d7-e59025806cd5",
+				"layer": "Particle_systems",
+				"x": 48,
+				"y": 48,
+				"width": 16,
+				"height": 16,
+				"color": 16777215,
+				"customFields": {
+					"name": "2 - bg1"
+				}
+			}
+		],
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "6e5e50d0-2a00-11ed-a094-3b5e0513380d",
+				"layer": "Exits",
+				"x": 0,
+				"y": 48,
+				"width": 16,
+				"height": 144,
+				"color": 2505478,
+				"customFields": {
+					"Level_ID": 0,
+					"Entrance_ID": 2
+				}
+			},
+			{
+				"id": "Exit",
+				"iid": "a87e5fb0-2a00-11ed-aeb2-13768752b6be",
+				"layer": "Exits",
+				"x": 464,
+				"y": 80,
+				"width": 16,
+				"height": 96,
+				"color": 2505478,
+				"customFields": {
+					"Level_ID": 2,
+					"Entrance_ID": 0
+				}
+			}
+		],
+		"Collider": [
+			{
+				"id": "Collider",
+				"iid": "26772410-02f0-11ed-bc18-591ca8518039",
+				"layer": "Colliders",
+				"x": 128,
+				"y": 128,
+				"width": 144,
+				"height": 80,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "2ae0e6d0-02f0-11ed-bc18-81fa70f08390",
+				"layer": "Colliders",
+				"x": 128,
+				"y": 208,
+				"width": 128,
+				"height": 32,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "2e0160b0-02f0-11ed-bc18-1d6f815e996a",
+				"layer": "Colliders",
+				"x": 0,
+				"y": 192,
+				"width": 128,
+				"height": 48,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "30b5d250-02f0-11ed-bc18-c908922b0889",
+				"layer": "Colliders",
+				"x": 352,
+				"y": 176,
+				"width": 128,
+				"height": 64,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "32a67ec0-02f0-11ed-bc18-e70ffb9a63cf",
+				"layer": "Colliders",
+				"x": 368,
+				"y": 240,
+				"width": 112,
+				"height": 16,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "35033370-02f0-11ed-bc18-4d320476402a",
+				"layer": "Colliders",
+				"x": 0,
+				"y": 0,
+				"width": 448,
+				"height": 32,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "377062e0-02f0-11ed-bc18-c53018413def",
+				"layer": "Colliders",
+				"x": 0,
+				"y": 32,
+				"width": 16,
+				"height": 16,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "396777f0-02f0-11ed-bc18-a17c2ffbdfdf",
+				"layer": "Colliders",
+				"x": 368,
+				"y": 32,
+				"width": 80,
+				"height": 32,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "3be5e570-02f0-11ed-bc18-75c152ed41f1",
+				"layer": "Colliders",
+				"x": 384,
+				"y": 64,
+				"width": 96,
+				"height": 16,
+				"color": 12131613,
+				"customFields" : {}
+			},
+			{
+				"id": "Collider",
+				"iid": "3d4b41d0-02f0-11ed-bc18-c3f1588ace1e",
+				"layer": "Colliders",
+				"x": 448,
+				"y": 48,
+				"width": 32,
+				"height": 16,
+				"color": 12131613,
+				"customFields" : {}
+			}
+		],
+		"Image": [
+			{
+				"id": "Image",
+				"iid": "03a05990-02f0-11ed-bc18-7f65d34a4266",
+				"layer": "Images",
+				"x": 224,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 3870442,
+				"customFields": {
+					"Path": "../Images/Environments/Village/village_BG1.png",
+					"Layer": "Background1",
+					"ParallaxValue": 1
+				}
+			},
+			{
+				"id": "Image",
+				"iid": "371c2bf0-02f0-11ed-bc18-efd66aa077d8",
+				"layer": "Images",
+				"x": 256,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 3870442,
+				"customFields": {
+					"Path": "../Images/Environments/Village/village_BG2.png",
+					"Layer": "Background2",
+					"ParallaxValue": 1
+				}
+			},
+			{
+				"id": "Image",
+				"iid": "41449310-02f0-11ed-bc18-57249b4480e9",
+				"layer": "Images",
+				"x": 288,
+				"y": 64,
+				"width": 16,
+				"height": 16,
+				"color": 3870442,
+				"customFields": {
+					"Path": "../Images/Environments/Village/village_BG3.png",
+					"Layer": "Background3",
+					"ParallaxValue": 1
+				}
+			}
+		],
+		"Entrance": [
+			{
+				"id": "Entrance",
+				"iid": "1c8ab480-02f0-11ed-bc18-85295b73d3f8",
+				"layer": "Entrances",
+				"x": 16,
+				"y": 160,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ID": 0
+				}
+			},
+			{
+				"id": "Entrance",
+				"iid": "4cb9a510-2a00-11ed-a094-1d1a396c0d73",
+				"layer": "Entrances",
+				"x": 448,
+				"y": 144,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ID": 1
+				}
+			},
+			{
+				"id": "Entrance",
+				"iid": "56e9fee0-5110-11ed-aaaa-67bcdb02dc47",
+				"layer": "Entrances",
+				"x": 160,
+				"y": 48,
+				"width": 16,
+				"height": 16,
+				"color": 9755059,
+				"customFields": {
+					"ID": 2
+				}
+			}
+		]
+	}
+}
